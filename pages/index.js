@@ -1,9 +1,15 @@
+import BlobOne from "../components/Blobs/BlobOne";
+import BlobThree from "../components/Blobs/BlobThree";
+import BlobTwo from "../components/Blobs/BlobTwo";
 import Nav from "../components/Nav";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="h-screen">
       <Nav />
+      <BlobOne />
+      <BlobTwo />
+      <BlobThree />
     </div>
   );
 }
