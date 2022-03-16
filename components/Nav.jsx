@@ -27,7 +27,7 @@ export default function Nav() {
             <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
                 <Link href="/" passHref>
-                  <h1 className="font-orbitron font-bold leading-none text-3xl hover:cursor-pointer">
+                  <h1 className="font-orbitron gradientText font-bold leading-none text-4xl hover:cursor-pointer">
                     {" "}
                     Pras-UI
                   </h1>
@@ -37,7 +37,7 @@ export default function Nav() {
                 <div
                   onClick={() => setToggleSidebar(!toggleSidebar)}
                   className=" rounded-md p-2 inline-flex items-center justify-center hover:text-gray-500 ">
-                  <button className="inline-flex items-center lg:hidden  focus-visible:ring ring-indigo-300  active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2 sm:-mr-8 md:-mr-32">
+                  <button className="inline-flex text-white items-center lg:hidden  focus-visible:ring ring-indigo-300  active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2 sm:-mr-8 md:-mr-32">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
@@ -59,7 +59,7 @@ export default function Nav() {
                 {navData.map((n) => {
                   return (
                     <Link key={n.name} href={n.href} passHref>
-                      <span className={`${button} text-lg`}>{n.name}</span>
+                      <span className=" text-white text-2xl font-orbitron ">{n.name}</span>
                     </Link>
                   );
                 })}
@@ -75,7 +75,7 @@ export default function Nav() {
           setToggleSidebar={setToggleSidebar}>
           {navData.map((item) => (
             <Link key={item.name} href={item.href} passHref>
-              <h1 className="mt-10 mx-3 p-3 flex items-center text-3xl font-bold w-[13rem] rounded-md hover:bg-white/10 hover:backdrop-blur-sm hover:cursor-pointer  ">
+              <h1 className="mt-10 mx-3 p-3 flex items-center text-3xl font-orbitron font-bold w-[13rem] rounded-md hover:bg-white/10 hover:backdrop-blur-sm hover:cursor-pointer  ">
                 {item.name}
               </h1>
             </Link>

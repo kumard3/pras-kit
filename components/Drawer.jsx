@@ -9,7 +9,7 @@ export const DrawerNav = ({ children, toggleSidebar, setToggleSidebar }) => {
         ref={ref}
         className={`fixed  top-0 px-2  z-30 inset-y-0  w-1/2  transition duration-300 transform  ${
           toggleSidebar
-            ? "translate-x-[50vw] ease-out h-full bg-black text-white"
+            ? "translate-x-[50vw] ease-out h-full  bg-[#111827] text-white"
             : "translate-x-[100vw] ease-in  "
         }`}>
         {children}
