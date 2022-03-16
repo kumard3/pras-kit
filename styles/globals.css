@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.font-spartan {
+  font-family: "Spartan", sans-serif;
+}
