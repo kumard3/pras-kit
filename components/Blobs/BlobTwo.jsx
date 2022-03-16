@@ -3,7 +3,7 @@ const BlobTwo = () => {
     <svg
       width="531"
       height="531"
-      className="absolute left-[48.12%] top-[10.91%] right-[42.78%] bottom-[85.18%]"
+      className="absolute hidden lg:block left-[48.12%] top-[10.91%] right-[42.78%] bottom-[85.18%]"
       viewBox="0 0 531 531"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
