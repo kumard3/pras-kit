@@ -29,7 +29,7 @@ export default function Nav() {
                 <Link href="/" passHref>
                   <h1 className="font-orbitron gradientText font-bold leading-none text-4xl hover:cursor-pointer">
                     {" "}
-                    Pras-UI
+                    Pras-Kit
                   </h1>
                 </Link>
               </div>
@@ -59,7 +59,9 @@ export default function Nav() {
                 {navData.map((n) => {
                   return (
                     <Link key={n.name} href={n.href} passHref>
-                      <span className=" text-white text-2xl font-orbitron ">{n.name}</span>
+                      <span className=" text-white text-2xl font-orbitron ">
+                        {n.name}
+                      </span>
                     </Link>
                   );
                 })}
