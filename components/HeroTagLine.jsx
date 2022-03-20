@@ -1,6 +1,6 @@
 const HeroTagLine = () => {
   return (
-    <div className="h-full">
+    <div className="h-full max-w-xl">
       <h2 className="text-6xl text-white font-semibold font-spartan ">
         The React{" "}
         <span className="gradientText font-orbitron font-bold ">Developer Kit</span> you
