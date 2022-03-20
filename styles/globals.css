@@ -17,6 +17,7 @@ body {
 }
 
 .gradientText {
+
   background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -30,4 +31,9 @@ body {
   );
   box-sizing: border-box;
   backdrop-filter: blur(60px);
+}
+
+.selectionBackground {
+  /* @apply selection:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500; */
+  @apply selection:bg-fuchsia-600;
 }
