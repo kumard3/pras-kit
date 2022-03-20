@@ -12,7 +12,6 @@ export default function Home() {
       <BlobTwo />
       <BlobThree />
       <Sally />
-    
     </div>
   );
 }

@@ -1,9 +1,5 @@
 const Blob = () => {
   return (
-    //     <span
-    //       className={`absolute w-[${width} h-[${height}] bg-[${color}]] blur-[${blur}] left-[${left}] right-[${right}] top-[${top}] bottom-[${bottom}]`}>HI</span>
-    //
-
     <svg
       width="332"
       height="619"
