@@ -18,7 +18,7 @@ const navData = [
 export default function Nav() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
 
-  const button = `min-h-[3rem] px-4  active:scale-105 scale-110 active:transition-all duration-50 active:bg-white/10 hover:bg-white/10 flex justify-center items-center rounded-xl`;
+  // const button = `min-h-[3rem] px-4  active:scale-105 scale-110 active:transition-all duration-50 active:bg-white/10 hover:bg-white/10 flex justify-center items-center rounded-xl`;
   return (
     <>
       <div className=" w-full flex  text-xl font-bold drop-shadow-xl flex-none ease-in-out duration-300 0  lg:border-b lg:border-gray-900/10 ">
@@ -77,7 +77,7 @@ export default function Nav() {
           setToggleSidebar={setToggleSidebar}>
           {navData.map((item) => (
             <Link key={item.name} href={item.href} passHref>
-              <h1 className="mt-10 mx-3 p-3 flex items-center text-3xl font-orbitron font-bold w-[13rem] rounded-md hover:bg-white/10 hover:backdrop-blur-sm hover:cursor-pointer  ">
+              <h1 className="mt-10 mx-3 p-3 flex items-center w-full text-3xl font-orbitron font-bold  rounded-md hover:bg-white/10 hover:backdrop-blur-sm hover:cursor-pointer">
                 {item.name}
               </h1>
             </Link>

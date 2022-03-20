@@ -22,3 +22,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.drawerBackground {
+  background: linear-gradient(
+    120.37deg,
+    rgba(239, 239, 239, 0.085) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  box-sizing: border-box;
+  backdrop-filter: blur(60px);
+}

@@ -1,8 +1,8 @@
 import BlobOne from "../components/Blobs/BlobOne";
 import BlobThree from "../components/Blobs/BlobThree";
 import BlobTwo from "../components/Blobs/BlobTwo";
+import HeroSection from "../components/HeroSection";
 import Nav from "../components/Nav";
-import Sally from "../components/Sally";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <BlobOne />
       <BlobTwo />
       <BlobThree />
-      <Sally />
+      <HeroSection />
     </div>
   );
 }

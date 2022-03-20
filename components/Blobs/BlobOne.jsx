@@ -4,7 +4,7 @@ const Blob = () => {
       width="332"
       height="619"
       viewBox="0 0 332 619"
-      className="hidden lg:block fixed"
+      className="hidden -z-10 lg:block fixed"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_f_11_3)">

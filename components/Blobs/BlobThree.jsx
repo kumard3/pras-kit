@@ -4,7 +4,7 @@ const BlobThree = () => {
       width="565"
       height="740"
       viewBox="0 0 565 740"
-      className="fixed hidden lg:block left-[74.65%] top-[10.13%] right-[1.74%] bottom-[79.71%] "
+      className="fixed -z-10 hidden lg:block left-[74.65%] top-[10.13%] right-[1.74%] bottom-[79.71%] "
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_f_1_33)">
