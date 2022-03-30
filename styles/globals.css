@@ -7,6 +7,7 @@
 body {
   font-family: "Spartan", sans-serif;
   background-color: #111827;
+  @apply overflow-hidden;
 }
 .font-orbitron {
   font-family: "Orbitron", sans-serif;
@@ -17,7 +18,6 @@ body {
 }
 
 .gradientText {
-
   background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
   background-clip: text;
   -webkit-background-clip: text;
