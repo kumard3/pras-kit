@@ -6,12 +6,15 @@ import Nav from "../components/Nav";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-hidden">
       <Nav />
-      <BlobOne />
-      <BlobTwo />
-      <BlobThree />
-      <HeroSection />
+      <div className="w-full overflow-hidden">
+        <BlobOne />
+        <BlobTwo />
+        <BlobThree />
+
+        <HeroSection />
+      </div>
     </div>
   );
 }
