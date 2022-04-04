@@ -6,8 +6,8 @@ import Sally from "./Sally";
 
 const HeroSection = () => {
   return (
-    <div className="z-40 flex  justify-between  relative min-h-screen">
-      <div className=" lg:pl-10 py-10 lg:mt-40 flex flex-col justify-center items-start h-full px-4">
+    <div className="z-40 -translate-x-6 flex justify-center items-center w-screen">
+      <div className="lg:w-1/2 lg:pl-10 py-10 lg:mt-40 flex flex-col justify-center items-start h-full w-2/3">
         <HeroTagLine />
         <div className="flex w-full space-x-4 lg:hidden">
           <GradientButtonOne />
