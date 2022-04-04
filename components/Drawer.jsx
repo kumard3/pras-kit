@@ -7,9 +7,9 @@ export const DrawerNav = ({ children, toggleSidebar, setToggleSidebar }) => {
     <>
       <div
         ref={ref}
-        className={`drawerBackground fixed  top-0 px-2 rounded-l-xl  z-30 inset-y-0  w-1/2  transition duration-300 transform  ${
+        className={`drawerBackground fixed  top-0 px-2 rounded-l-xl  z-30 inset-y-0  w-[30rem]  transition duration-300 transform  ${
           toggleSidebar
-            ? "translate-x-[50vw] ease-out h-full  bg-[#111827] text-white"
+            ? "translate-x-[40vw] ease-out h-full  bg-[#111827] text-white"
             : "translate-x-[100vw] ease-in  "
         }`}>
         {children}
